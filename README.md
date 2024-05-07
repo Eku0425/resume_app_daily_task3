@@ -8,7 +8,8 @@ List is used to representing a collection of objects.
 It is an ordered group of objects.
 
 RemoveAt :
- void main() {
+ void main()
+ {
     List l1 = ['a','b','c',1,3,5,7];
 
     l1.removeAt(3);
@@ -25,13 +26,8 @@ Add :
     l1.add(34);
 
     print(l1);
-
-<img scr="https://github.com/Eku0425/resume_app_daily_task3/assets/149374328/eb628ab9-c35f-4f3b-b2cc-ddc816ae15c2 " height=25% width=25%>
-
-
-    
-
  }
+ 
 Insert :
  void main() 
  {
@@ -62,9 +58,10 @@ import 'dart:io';
     }
 
     print(l1);
-
-  }
+    }
+  
 Map :
+
 Map is collection of multiple List.
 Map is an object that stores data in the form of a key-value pair.
 Each value is associated with its key, and it is used to access its corresponding value.
@@ -91,12 +88,16 @@ void main()
 
 
   }
+  
 StatusBar
-class ResumeAppDialyTask extends StatelessWidget {
+
+class ResumeAppDialyTask extends StatelessWidget
+{
   const ResumeAppDialyTask({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     //Orientation
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.landscapeRight,
@@ -124,3 +125,8 @@ class AppRoutes {
     '/': (context) => const HomeScreen(),
   };
 }
+
+<img scr="https://github.com/Eku0425/resume_app_daily_task3/assets/149374328/eb628ab9-c35f-4f3b-b2cc-ddc816ae15c2 " height=25% width=25%>
+
+
+
