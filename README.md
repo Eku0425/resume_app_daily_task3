@@ -126,7 +126,6 @@ class AppRoutes {
   };
 }
 
-<img scr="https://github.com/Eku0425/resume_app_daily_task3/assets/149374328/eb628ab9-c35f-4f3b-b2cc-ddc816ae15c2 " height=25% width=25%>
-
+<img scr="https://github.com/Eku0425/resume_app_daily_task3/assets/149374328/c1b33c67-1c4e-49fe-b88f-aef0f09b0cf6"  height=25% width=25%>
 
 
